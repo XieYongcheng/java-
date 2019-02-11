@@ -1,4 +1,4 @@
-package com.test;
+ï»¿package com.test;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -33,37 +33,37 @@ public class Insert extends JPanel implements ActionListener {
 
 		JLabel lblId = new JLabel("ID");
 		lblId.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblId.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		lblId.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		lblId.setBounds(48, 48, 135, 36);
 		add(lblId);
 
 		JLabel label = new JLabel("\u4E66\u540D");
 		label.setHorizontalAlignment(SwingConstants.RIGHT);
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label.setBounds(48, 94, 135, 36);
 		add(label);
 
 		JLabel label_1 = new JLabel("\u4F5C\u8005");
 		label_1.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_1.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_1.setBounds(48, 140, 135, 36);
 		add(label_1);
 
 		JLabel label_2 = new JLabel("\u51FA\u7248\u793E");
 		label_2.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_2.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_2.setBounds(48, 186, 135, 36);
 		add(label_2);
 
 		JLabel label_3 = new JLabel("\u4EF7\u683C");
 		label_3.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_3.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_3.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_3.setBounds(48, 232, 135, 36);
 		add(label_3);
 
 		JLabel label_4 = new JLabel("\u51FA\u7248\u5E74\u6708");
 		label_4.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_4.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_4.setBounds(48, 278, 135, 36);
 		add(label_4);
 
@@ -128,7 +128,7 @@ public class Insert extends JPanel implements ActionListener {
 				Double.parseDouble(jia_ge.getText());
 				new SimpleDateFormat("yyyy/MM/dd").parse(date.getText());
 			} catch (Exception e1) {
-				JOptionPane.showMessageDialog(null, "ÊıÖµ¸ñÊ½´íÎó", "error", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null, "æ•°å€¼æ ¼å¼é”™è¯¯", "error", JOptionPane.ERROR_MESSAGE);
 				return;
 			}
 			function5(new Book(Integer.parseInt(id.getText()), name.getText(), author.getText(), chu_ban_she.getText(),

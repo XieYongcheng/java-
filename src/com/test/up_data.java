@@ -1,4 +1,4 @@
-package com.test;
+﻿package com.test;
 
 class up_data {
 	public Book b;

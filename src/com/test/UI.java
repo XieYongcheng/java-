@@ -1,4 +1,4 @@
-package com.test;
+﻿package com.test;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -115,7 +115,7 @@ public class UI extends JFrame implements ActionListener {
 	public void insert(Book b) {
 		try {
 			data.add(b);
-			JOptionPane.showMessageDialog(null, "�ɹ�", "OK", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "成功", "OK", JOptionPane.INFORMATION_MESSAGE);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e.getMessage(), "error", JOptionPane.ERROR_MESSAGE);
 		}

@@ -1,7 +1,7 @@
-package com.test;
+ï»¿package com.test;
 
 public class Book {
-	// id¡¢ÊéÃû¡¢×÷Õß¡¢³ö°æÉç¡¢¼Û¸ñ¡¢³ö°æÄêÔÂ
+	// idã€ä¹¦åã€ä½œè€…ã€å‡ºç‰ˆç¤¾ã€ä»·æ ¼ã€å‡ºç‰ˆå¹´æœˆ
 	private int ID;
 	private String shu_ming;
 	private String zuo_zhe;

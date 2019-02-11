@@ -1,4 +1,4 @@
-package com.test;
+ï»¿package com.test;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -45,37 +45,37 @@ public class Delete extends JPanel implements ActionListener {
 
 		label = new JLabel("ID");
 		label.setHorizontalAlignment(SwingConstants.RIGHT);
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label.setBounds(32, 77, 135, 36);
 		add(label);
 
 		label_1 = new JLabel("\u4E66\u540D");
 		label_1.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_1.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_1.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_1.setBounds(32, 123, 135, 36);
 		add(label_1);
 
 		label_2 = new JLabel("\u4F5C\u8005");
 		label_2.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_2.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_2.setBounds(32, 169, 135, 36);
 		add(label_2);
 
 		label_3 = new JLabel("\u51FA\u7248\u793E");
 		label_3.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_3.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_3.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_3.setBounds(32, 215, 135, 36);
 		add(label_3);
 
 		label_4 = new JLabel("\u4EF7\u683C");
 		label_4.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_4.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_4.setBounds(32, 261, 135, 36);
 		add(label_4);
 
 		label_5 = new JLabel("\u51FA\u7248\u5E74\u6708");
 		label_5.setHorizontalAlignment(SwingConstants.RIGHT);
-		label_5.setFont(new Font("ËÎÌå", Font.PLAIN, 22));
+		label_5.setFont(new Font("å®‹ä½“", Font.PLAIN, 22));
 		label_5.setBounds(32, 307, 135, 36);
 		add(label_5);
 
@@ -133,7 +133,7 @@ public class Delete extends JPanel implements ActionListener {
 
 		lblId = new JLabel("ID");
 		lblId.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblId.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
+		lblId.setFont(new Font("å®‹ä½“", Font.PLAIN, 20));
 		lblId.setBounds(32, 10, 110, 23);
 		add(lblId);
 	}
@@ -168,7 +168,7 @@ public class Delete extends JPanel implements ActionListener {
 				String s;
 				s = textField.getText();
 				if (s.isEmpty()) {
-					JOptionPane.showMessageDialog(null, "Î´ÊäÈëID", "´íÎó", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "æœªè¾“å…¥ID", "é”™è¯¯", JOptionPane.ERROR_MESSAGE);
 					throw new Exception();
 				}
 				function6(s);
@@ -179,7 +179,7 @@ public class Delete extends JPanel implements ActionListener {
 				String s;
 				s = textField.getText();
 				if (s.isEmpty()) {
-					JOptionPane.showMessageDialog(null, "Î´ÊäÈëID", "´íÎó", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "æœªè¾“å…¥ID", "é”™è¯¯", JOptionPane.ERROR_MESSAGE);
 					throw new Exception();
 				}
 				Book b = function7(s);
